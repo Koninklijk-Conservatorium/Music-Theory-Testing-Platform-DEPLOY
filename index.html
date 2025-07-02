@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Music Theory Candidate Test</title>
+      <script type="module" crossorigin src="/assets/index-CbtRJWMX.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-DayHLjNq.css">
+    </head>
+    <body>
+        <noscript>
+            <h1>IMPORTANT INFORMATION</h1>
+            <p>
+                Your browser has either Javascript turned off or does not
+                support it. Please turn on your Javascript or use a browser that
+                supports it.
+            </p>
+            <a href="https://www.enable-javascript.com"
+                >More information on how to turn on Javascript on the most
+                popular browsers.</a
+            >
+        </noscript>
+        <script>
+            /*
+            This is needed because music21j sends incorrent requests
+            for some mp3 soundfonts resulting in errors and obscuring
+            browser testing (midicube issue).
+            */
+            window.m21conf = { loadSoundfont: false };
+        </script>
+        <div id="root"></div>
+    </body>
+</html>
